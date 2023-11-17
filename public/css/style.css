@@ -120,13 +120,19 @@
 
 .exo5 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 40px;  
+}
+
+.Pierwszy {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 15px);
 }
 
 #Raz {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 15px;
 }
 
@@ -138,13 +144,13 @@
     height: 65px;
     color: aliceblue;
     font-size: 20px;
-    width: calc(50% - 15px);
-    margin-bottom: 0;
     margin-top: 0;
+    
 }
 
-#Raz :nth-child(2) {
-    height: 150px;
+#Dwa {
+    display: flex;
+    flex-direction: column;
 }
 
 #Dwa p {
@@ -159,9 +165,7 @@
 
 #Trzy {
     display: flex;
-    flex-wrap: nowrap;
     gap: 15px;
-    width: 45%;
 }
 
 #Trzy p {
@@ -176,6 +180,89 @@
     font-size: 20px;
 } 
 
+
+.Drugi {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 15px);
+    height: 200px;
+}
+
+
+#Cztery {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 0px 15px 0px 15px;
+}
+
+#Cztery p {
+    background-color: #f40b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 145px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+#Piec {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding: 0px 15px 0px 15px;
+    gap: 15px;
+}
+
+#Piec p {
+    background-color: #f40b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 170px;
+    flex-grow: 1;
+}
+
+#Szesc {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 0px 15px 0px 15px;
+}
+
+#Szesc p {
+    background-color: #f40b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 70px;
+}
+
+/* #Szesc {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Szesc p {
+    background-color: #f40b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: aliceblue;
+    font-size: 20px;
+} */
 
 
 
@@ -256,10 +343,12 @@
 
 #Un :nth-child(2) {
     background-color: yellow;
+    border: solid black 2px;
 }
 
 #Un :nth-child(3) {
     background-color: #f40b0b;
+    border: solid black 2px;
 }
 
 #Deux {
@@ -277,10 +366,12 @@
 
 #Deux :nth-child(2) {
     background-color: yellow;
+    border: solid black 2px;
 }
 
 #Deux :nth-child(3) {
     background-color: #f40b0b;
+    border: solid black 2px;
 }
 
 #Trois {
@@ -298,10 +389,12 @@
 
 #Trois :nth-child(2) {
     background-color: yellow;
+    border: solid black 2px;
 }
 
 #Trois :nth-child(3) {
     background-color: #f40b0b;
+    border: solid black 2px;
 }
 
 
