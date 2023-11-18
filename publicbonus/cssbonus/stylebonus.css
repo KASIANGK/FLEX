@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    display: flex;
+    background-color: rgb(253, 215, 164);
+    height: 100vh;
+}
+
+.icon {
+    display: flex;
+    position: relative;
+    top: 69%;
+    left: 53%;
+}
+
+.exobonus {
+    display: flex;
+    background-color: antiquewhite;
+    background-size: contain;
+    background-position: center;
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%
+}
+
+img {
+    display: flex;
+    height: 100%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+#texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    margin-top: -10%;
+}
+
+#texte :nth-child(1) {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 5px;
+}
+
+
+#texte :nth-child(2) {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 2%;
+}
+
+#texte :nth-child(3) {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -2%;
+    font-size: 15px;
+    width: 300px;
+    letter-spacing: 2px;
+}
+
+#prix {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+#prix :nth-child(1) {
+    color: green;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+#prix :nth-child(2) {
+    font-size: 20px;
+    margin-top: 7%;
+    text-decoration: line-through;
+}
+
+#bouton {
+   display: flex; 
+   font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background-color: green;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 10px 35px 10px 20px;
+}
+
+button:hover {
+    background-color: grey;
+} 
+
